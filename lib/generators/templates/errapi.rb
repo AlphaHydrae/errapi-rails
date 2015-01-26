@@ -1,0 +1,2 @@
+Errapi.configure do
+end
