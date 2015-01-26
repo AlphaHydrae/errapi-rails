@@ -1,9 +1,9 @@
 PATH
   remote: .
   specs:
-    errapi-rails (0.0.1)
+    errapi-rails (0.1.0)
       errapi (~> 0.1.2)
-      rails (~> 4.2.0)
+      rails (~> 4.0)
 
 GEM
   remote: https://rubygems.org/

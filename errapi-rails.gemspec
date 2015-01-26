@@ -1,12 +1,12 @@
 $:.push File.expand_path("../lib", __FILE__)
 
 # Maintain your gem's version:
-require "errapi_rails/version"
+require "errapi-rails/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
   s.name        = "errapi-rails"
-  s.version     = ErrapiRails::VERSION
+  s.version     = Errapi::Rails::VERSION
   s.authors     = ["Simon Oulevay"]
   s.email       = ["simon.oulevay@gmail.com"]
   s.homepage    = "https://github.com/AlphaHydrae/errapi-rails"
