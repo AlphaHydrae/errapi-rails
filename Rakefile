@@ -32,3 +32,10 @@ end
 
 
 task default: :test
+
+
+# version tasks
+require 'rake-version'
+RakeVersion::Tasks.new do |v|
+  v.copy 'lib/errapi-rails/version.rb'
+end

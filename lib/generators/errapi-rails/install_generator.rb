@@ -7,7 +7,6 @@ module Errapi
         source_root File.expand_path("../../templates", __FILE__)
 
         desc "Creates an errapi initializer and copy locale files to your application."
-        #class_option :orm
 
         def copy_initializer
           template "errapi.rb", "config/initializers/errapi.rb"
